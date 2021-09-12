@@ -1,31 +1,30 @@
 
 {
-    "name":"ok",
-    "description":"telegram bot",
-    "keywords":[
-        "Telegram",
-        "Bot",
+    "name": "bot no",
+    "description": " Bot.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "profanity-detector"
     ],
-    "repository":"",
-    "website":"",
-    "success_url":"",
-    "env":{
-        "token":{
-            "description":"your bot token"
+    "repository": "https://github.com/hyper-ub/AnonimasuRobot",
+    "website": "https://github.com/hyper-ub/AnonimasuRobot",
+    "success_url": "https://github.com/hyper-ub/AnonimasuRobot/edit/master/app.json",
+    "env": {
+        "token": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
         },
-     
-        "group_id":{
-            "description":"group id"
+        "group_id": {
+            "description": "group id.",
+            "value": ""
+        }
     },
-    "buildpacks":[
+    "buildpacks": [
         {
-            "url":"heroku/python"
+            "url": "heroku/python"
         }
-    ],
-    "formation":{
-        "worker":{
-            "quantity":1,
-            "size":"free"
-        }
-    }
+    ]
 }
