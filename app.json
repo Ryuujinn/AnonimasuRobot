@@ -1,0 +1,31 @@
+
+{
+    "name":"ok",
+    "description":"telegram bot",
+    "keywords":[
+        "Telegram",
+        "Bot",
+    ],
+    "repository":"",
+    "website":"",
+    "success_url":"",
+    "env":{
+        "token":{
+            "description":"your bot token"
+        },
+     
+        "group_id":{
+            "description":"group id"
+    },
+    "buildpacks":[
+        {
+            "url":"heroku/python"
+        }
+    ],
+    "formation":{
+        "worker":{
+            "quantity":1,
+            "size":"free"
+        }
+    }
+}
