@@ -1,13 +1,12 @@
 
 {
-    "name": "bot no",
+    "name": "bot",
     "description": " Bot.",
     "logo": "",
     "keywords": [
         "telegram",
         "telethon",
-        "telegram-bot",
-        "profanity-detector"
+        "telegram-bot"
     ],
     "repository": "https://github.com/hyper-ub/AnonimasuRobot",
     "website": "https://github.com/hyper-ub/AnonimasuRobot",
